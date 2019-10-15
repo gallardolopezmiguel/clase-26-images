@@ -1,0 +1,17 @@
+.dogMargin{
+    margin-top: 800px;
+}
+.dog {
+    height: auto;
+    max-width: 300px;
+}
+
+.lazydog {
+    width: 380px;
+    filter: blur(5px);
+}
+.is-loaded, .dog {
+    filter: none;
+    transition: filter 1s;
+}
+
